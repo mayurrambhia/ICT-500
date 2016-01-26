@@ -1,2 +1,2 @@
-# ICT-500
-Harrisburg University - ICT - 500
+Javascript Home Folder
+All the .js files should be placed in here

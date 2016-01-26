@@ -1,2 +1,2 @@
-# ICT-500
-Harrisburg University - ICT - 500
+Pages Folder
+All the UI Code should be placed here
