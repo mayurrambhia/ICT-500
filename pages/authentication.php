@@ -26,7 +26,7 @@
                 <ol class="breadcrumb">
                     <li><a href="./home.php">Home</a></li>
                     <li><a href="./tutorial.php">Tutorial</a></li>
-                    <li><a href="active">Authentication</a></li>                   
+                    <li>Authentication</li>                   
                 </ol>
             </span>
             <span class="col-md-1"></span>
