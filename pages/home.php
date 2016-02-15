@@ -23,7 +23,7 @@
             <span class="col-md-1"></span>
             <span class="col-md-10">
                 <ol class="breadcrumb">
-                    <li><a href="active">Home</a></li>
+                    <li>Home</li>
                    
                 </ol>
             </span>

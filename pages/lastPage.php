@@ -23,8 +23,9 @@
             <span class="col-md-1"></span>
             <span class="col-md-10">
                 <ol class="breadcrumb">
-                    <li><a href="active">Home</a></li>
-                   
+                    <li><a href="./home.php">Home</a></li>
+                    <li><a href="./tutorial.php">Tutorial</a></li>
+                    <li>Last Page</li>                   
                 </ol>
             </span>
             <span class="col-md-1"></span>

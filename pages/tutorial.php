@@ -24,7 +24,7 @@
             <span class="col-md-10">
                 <ol class="breadcrumb">
                     <li><a href="./home.php">Home</a></li>
-                    <li><a href="active">Tutorial</a></li>
+                    <li>Tutorial</li>
                 </ol>
             </span>
             <span class="col-md-1"></span>
