@@ -23,8 +23,8 @@
             <span class="col-md-1"></span>
             <span class="col-md-10">
                 <ol class="breadcrumb">
-                    <li><a href="active">Home</a></li>
-                   
+                    <li><a href="./home.php">Home</a></li>
+                    <li><a href="active">Tutorial</a></li>
                 </ol>
             </span>
             <span class="col-md-1"></span>
@@ -46,8 +46,8 @@
             <span class="col-md-1"></span>
             <span class="col-md-10">
                 <ul class="nav nav-pills">
-                      <li role="presentation" class="active"><a href="#">Home</a></li>
-                      <li role="presentation"><a href="./tutorial.php">Tutorial</a></li>
+                      <li role="presentation"><a href="./home.php">Home</a></li>
+                      <li role="presentation" class="active"><a href="#">Tutorial</a></li>
                 </ul>
             </span>
             <span class="col-md-1"></span>
@@ -57,26 +57,37 @@
             <span class="col-md-2"></span>
             <span class="col-md-8">
                 <div id="main">
-                    GitHub is an open-source web based repository system founded by <strong>Tom Preston-Werner, Chris Wanstrath</strong> and <strong>PJ Hyett</strong>.<br>
-                    <ul>
-                        <li>It provides a web based graphical interface with desktop and mobile device integration.</li>
-                        <li>Along with Source Code Management, it provides several collaboration features like: 
+                    <h3>Setup your GitHub Desktop and being contibuting !</h3>
+                    To begin using GitHub Desktop to manage your Git Repositories,<br><br> 
+                    <ul class="squareBullet">
+                        <li>Setting up GitHub Desktop
                             <ul>
-                                <li> Bug Tracking</li>
-                                <li> Feature Requests</li>
-                                <li> Task Management</li>
+                                <li><a href="./installation.php">GitHub Desktop Installation</a></li>
+                                <li><a href="./authentication.php">GitHub Authentication</a></li>
+                                <li><a href="./lastPage.php">Configuring Git for GitHub Desktop</a></li>
                             </ul>
                         </li>
+                        <li><a href="./lastPage.php">Basic Settings</a>
+                        </li>
+                        <li><a href="./lastPage.php">Security Settings</a>
+                            <ul>
+                                <li>Authentication to GitHub when Two Factor Authentication is enabled</li>
+                                <li>Authentication to GitHub with Central Authentication Service (Available for Windows Only)</li>
+                                <li>Authentication to GitHub with Web Flow (Available for OSX Only)</li>
+                            </ul>
+                        </li>
+                        <li><a href="./lastPage.php">Updating GitHub Desktop</a>
+                        </li>
+                        <li><a href="./lastPage.php">Uninstallation of GitHub Desktop</a>
+                        </li>
                     </ul>
-                    Here, you can find a brief tutorial in using GitHub Desktop Interface to ease the management of your source code.<br>
-                    <br>
-                    <a href="./tutorial.php"><button type="button"> Begin Tutorial !</button></a>
                 </div>
             </span>
             <span class="col-md-2"></span>
         </div>
+        
             
-        <!-- Footer -->
+         <!-- Footer -->
             
         <div class="row">
             

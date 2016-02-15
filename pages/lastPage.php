@@ -56,25 +56,18 @@
         <div class="row">
             <span class="col-md-2"></span>
             <span class="col-md-8">
-                <div id="main">
-                    GitHub is an open-source web based repository system founded by <strong>Tom Preston-Werner, Chris Wanstrath</strong> and <strong>PJ Hyett</strong>.<br>
-                    <ul>
-                        <li>It provides a web based graphical interface with desktop and mobile device integration.</li>
-                        <li>Along with Source Code Management, it provides several collaboration features like: 
-                            <ul>
-                                <li> Bug Tracking</li>
-                                <li> Feature Requests</li>
-                                <li> Task Management</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    Here, you can find a brief tutorial in using GitHub Desktop Interface to ease the management of your source code.<br>
-                    <br>
-                    <a href="./tutorial.php"><button type="button"> Begin Tutorial !</button></a>
+                <div id="main" class="row">
+                    Please visit later for further updates to complete the Setup
+                </div>
+                <div class="row">
+                    <span class="col-md-12  paginate">
+                        <a class="btn btn-default" href="./authentication.php" role="button">Previous</a>
+                    </span>
                 </div>
             </span>
             <span class="col-md-2"></span>
         </div>
+        
             
         <!-- Footer -->
             

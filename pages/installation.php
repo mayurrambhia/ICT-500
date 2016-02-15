@@ -12,19 +12,21 @@
     <link type="text/css" href="../css/bootstrap.min.css" rel="stylesheet" />
     <link type="text/css" href="../css/bootstrap-responsive.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script src="../js/genJS.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
     <link type="text/css" href="../css/style.css" rel="stylesheet" />
 
 </head>
     <body>
+   
         <!-- BreadCrumbs -->
         <div class="row">
             <span class="col-md-1"></span>
             <span class="col-md-10">
                 <ol class="breadcrumb">
-                    <li><a href="active">Home</a></li>
-                   
+                    <li><a href="./home.php">Home</a></li>
+                    <li><a href="./tutorial.php">Tutorial</a></li>
+                    <li><a href="active">Installation</a></li>                   
                 </ol>
             </span>
             <span class="col-md-1"></span>
@@ -46,37 +48,46 @@
             <span class="col-md-1"></span>
             <span class="col-md-10">
                 <ul class="nav nav-pills">
-                      <li role="presentation" class="active"><a href="#">Home</a></li>
-                      <li role="presentation"><a href="./tutorial.php">Tutorial</a></li>
+                      <li role="presentation"><a href="./home.php">Home</a></li>
+                      <li role="presentation" class="active"><a href="#">Tutorial</a></li>
                 </ul>
             </span>
             <span class="col-md-1"></span>
         
-        <!-- Body -->
+            <!-- Body -->
         <div class="row">
             <span class="col-md-2"></span>
             <span class="col-md-8">
-                <div id="main">
-                    GitHub is an open-source web based repository system founded by <strong>Tom Preston-Werner, Chris Wanstrath</strong> and <strong>PJ Hyett</strong>.<br>
-                    <ul>
-                        <li>It provides a web based graphical interface with desktop and mobile device integration.</li>
-                        <li>Along with Source Code Management, it provides several collaboration features like: 
-                            <ul>
-                                <li> Bug Tracking</li>
-                                <li> Feature Requests</li>
-                                <li> Task Management</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    Here, you can find a brief tutorial in using GitHub Desktop Interface to ease the management of your source code.<br>
-                    <br>
-                    <a href="./tutorial.php"><button type="button"> Begin Tutorial !</button></a>
+                <div id="main" class="row">
+                    To begin installation, you will first have to download GitHub for your desktop depending on your Operating System
+                    <span class="col-md-6">
+                        <h3>For Mac</h3>
+                        <ol>
+                            <li>Visit the <a href="https://central.github.com/mac/latest">GitHub Download Page</a> for Mac OS X 10.9 or higher</li>
+                            <li>After the download, double-click on the GitHub Desktop zip file</li>
+                            <li>Once extract completes, double-click on GitHub Desktop and start using</li>
+                        </ol>
+                    </span>
+                    <span class="col-md-6">
+                        <h3>For Windows</h3>
+                        <ol>
+                            <li><h4>Yet to be updated !</h4></li>
+                        </ol>
+                    </span>
+                </div>
+                <div class="row">
+                    <span class="col-md-12  paginate">
+                        <a class="btn btn-default" href="./tutorial.php" role="button">Previous</a>
+                        <a class="btn btn-default" href="./authentication.php" role="button">Next</a>
+                    </span>
                 </div>
             </span>
+            
             <span class="col-md-2"></span>
         </div>
+       
             
-        <!-- Footer -->
+         <!-- Footer -->
             
         <div class="row">
             
