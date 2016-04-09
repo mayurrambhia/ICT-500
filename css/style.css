@@ -1,5 +1,6 @@
 body{
     background: url(../img/tiny_grid.png) repeat 0 0;  
+    position: relative;
 }
 #header{
     text-align: center;
@@ -37,7 +38,8 @@ body{
 #footer {
 	height:50px;
 	position:absolute;
-	bottom:0;
+	
+    top: 630px;
     text-align: center;
     border-radius: 10px;
     border-top: 2px solid #000;
