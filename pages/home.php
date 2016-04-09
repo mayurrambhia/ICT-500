@@ -70,7 +70,7 @@
                     </ul>
                     Here, you can find a brief tutorial in using GitHub Desktop Interface to ease the management of your source code.<br>
                     <br>
-                    <a href="./tutorial.php"><button type="button"> Begin Tutorial !</button></a>
+                    <a href="./tutorial.php"><button onclick="moveButton()" type="button"> Begin Tutorial !</button></a>
                 </div>
             </span>
             <span class="col-md-2"></span>
